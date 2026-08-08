@@ -153,3 +153,7 @@ diff other-machine.txt this-machine.txt
 console says is valid = **wrong endpoint, not dead key**. Find the one door
 your key type opens (section 1), prove it with a real completion — never
 `/models` (section 2) — and point every `baseUrl` at it (section 4).
+
+---
+
+*Written by [Nathan Maine](https://github.com/NathanMaine) — from a real debugging session across two machines. MIT licensed; if it saves you the afternoon it cost me, pass it along.*
