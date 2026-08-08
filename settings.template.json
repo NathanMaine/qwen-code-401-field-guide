@@ -1,0 +1,86 @@
+{
+  "env": {
+    "TOKEN_PLAN_API_KEY": "PASTE-YOUR-sk-sp-KEY-HERE"
+  },
+  "modelProviders": {
+    "openai": [
+      {
+        "id": "qwen3.8-max",
+        "name": "[Token Plan] qwen3.8-max",
+        "baseUrl": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+        "envKey": "TOKEN_PLAN_API_KEY",
+        "generationConfig": {
+          "extra_body": {
+            "enable_thinking": true
+          }
+        }
+      },
+      {
+        "id": "qwen3.7-max",
+        "name": "[Token Plan] qwen3.7-max",
+        "baseUrl": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+        "envKey": "TOKEN_PLAN_API_KEY",
+        "generationConfig": {
+          "extra_body": {
+            "enable_thinking": true
+          }
+        }
+      },
+      {
+        "id": "qwen3.7-plus",
+        "name": "[Token Plan] qwen3.7-plus",
+        "baseUrl": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+        "envKey": "TOKEN_PLAN_API_KEY",
+        "generationConfig": {
+          "extra_body": {
+            "enable_thinking": true
+          }
+        }
+      },
+      {
+        "id": "qwen3.6-flash",
+        "name": "[Token Plan] qwen3.6-flash",
+        "baseUrl": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+        "envKey": "TOKEN_PLAN_API_KEY"
+      },
+      {
+        "id": "glm-5.2",
+        "name": "[Token Plan] glm-5.2",
+        "baseUrl": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+        "envKey": "TOKEN_PLAN_API_KEY",
+        "generationConfig": {
+          "extra_body": {
+            "enable_thinking": true
+          }
+        }
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "name": "[Token Plan] deepseek-v4-pro",
+        "baseUrl": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+        "envKey": "TOKEN_PLAN_API_KEY",
+        "generationConfig": {
+          "extra_body": {
+            "enable_thinking": true
+          }
+        }
+      },
+      {
+        "id": "deepseek-v4-flash-0731",
+        "name": "[Token Plan] deepseek-v4-flash-0731",
+        "baseUrl": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1",
+        "envKey": "TOKEN_PLAN_API_KEY"
+      }
+    ]
+  },
+  "security": {
+    "auth": {
+      "selectedType": "openai"
+    }
+  },
+  "model": {
+    "name": "qwen3.8-max",
+    "baseUrl": "https://token-plan.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1"
+  },
+  "$version": 4
+}
